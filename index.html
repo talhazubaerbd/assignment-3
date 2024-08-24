@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Renterio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a3be9bc04.js" crossorigin="anonymous"></script>
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="font-manrope">
+    <header>
+            <!-- navbar -->
+            <div class="navbar bg-base-100" my-5>
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Service</a></li>
+                      <li><a>Porfolio</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl"> <i class="fa-solid fa-arrow-right bg-[#abef5f] rounded-full text-black -rotate-45 p-1"></i>Rinterio </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                      <li><a>Service</a></li>
+                      <li><a>Porfolio</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end ">
+                  <a class=" btn rounded-full bg-[#abef5f]">Book consult <i class="fa-solid fa-arrow-right bg-black rounded-full text-white -rotate-45 p-1"></i></a>
+                  
+                </div>
+              </div>
+              <div class="flex justify-center grid-cols-1 container mx-auto px-4">
+                <!-- image section -->
+                <img src="./image/banner.png" alt="">
+              </div>
+            <div >
+                <!-- text -->
+                 <p>
+                    <h1  class="flex justify-center text-4xl font-bold">
+                        A barn house of this design has a <div class="flex  align-center"><br>striking appearance</div>
+                    </h1>
+                 </p>
+                 <p class="flex justify-center pt-5">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.
+                 </p>
+            </div>
+            
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
