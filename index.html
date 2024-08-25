@@ -20,10 +20,23 @@
 <body class="font-manrope">
     <header>
             <!-- navbar -->
-            <div class="navbar bg-base-100" my-5>
+            <div class="navbar bg-base-100" my-50>
                 <div class="navbar-start">
+                  <a class="btn btn-ghost text-xl"> <i class="fa-solid fa-arrow-right bg-[#abef5f] rounded-full text-black -rotate-45 p-1"></i>Rinterio </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                      <li><a>Service</a></li>
+                      <li><a>Porfolio</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn rounded-full bg-[#abef5f]">Book consult <i class="fa-solid fa-arrow-right bg-black rounded-full text-white -rotate-45 p-1"></i></a>
                   <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -37,51 +50,78 @@
                           d="M4 6h16M4 12h8m-8 6h16" />
                       </svg>
                     </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Home</a></li>
-                      <li><a>Service</a></li>
-                      <li><a>Porfolio</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact Us</a></li>
-                    </ul>
+                    <div class="-ml-40">
+                        <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                        <li><a>Home</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>Porfolio</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                      </ul>
+                    </div>
+
                   </div>
-                  <a class="btn btn-ghost text-xl"> <i class="fa-solid fa-arrow-right bg-[#abef5f] rounded-full text-black -rotate-45 p-1"></i>Rinterio </a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                      <li><a>Service</a></li>
-                      <li><a>Porfolio</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact Us</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end ">
-                  <a class=" btn rounded-full bg-[#abef5f]">Book consult <i class="fa-solid fa-arrow-right bg-black rounded-full text-white -rotate-45 p-1"></i></a>
-                  
                 </div>
               </div>
               <div class="flex justify-center grid-cols-1 container mx-auto px-4">
                 <!-- image section -->
                 <img src="./image/banner.png" alt="">
               </div>
-            <div >
+            <div class="flex justify-center flex-col items-center pt-20">
                 <!-- text -->
                  <p>
-                    <h1  class="flex justify-center text-4xl font-bold">
-                        A barn house of this design has a <div class="flex  align-center"><br>striking appearance</div>
+                    <h1  class="text-4xl font-bold text-center">
+                        A barn house of this design has a <br>striking appearance
                     </h1>
                  </p>
-                 <p class="flex justify-center pt-5">
+                 <p class="pt-5 text-center">
                     The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.
-                 </p>
+                 </p><br>
+                 <a class="btn rounded-full bg-[#d3f6ae]">View Details <i class="fa-solid fa-arrow-right bg-[#abef5f] rounded-full text-black -rotate-45 p-1"></i></a>
             </div>
-            
+           
     </header>
     <main>
-
+      <div class=" flex justify-center  md:container md:mx-auto ">
+        <!-- container -->
+         <div class=" mt-20 bg-[#f4f4f4]">
+          <!-- text -->
+           <h1 class="text-2xl font-bold mb-5">
+            We design thoughtful, <br>liveable spaces
+           </h1>
+           <p>
+            The barn house captivates with its blend of rustic charm and 
+             <br>modern sophistication, featuring weathered wood, sleek metal accents.
+           </p>
+           <div class="card card-side bg-base-100 shadow-xl rounded-xl mr-8 mt-5">
+            <img class="w-320 h-14" src="image/commercial.png" alt="">
+            <div class="card-body">
+              <h2 class="card-title">Commercial</h2>
+              <p>The barn house captivates with its blend <br>of rustic charm and modern.</p>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 shadow-xl rounded-xl mr-8 mt-5">
+              <img class=" w-320 h-14 justify-center" src="image/residential.png" alt="">
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Residential</h2>
+              <p>The barn house captivates with its blend <br>of rustic charm and modern.</p>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+          <div class="w-96 h-64">
+            <!-- image -->
+             <img src="./image/Rectangle.png" alt="">
+          </div>
+         </div>
+              
+      </div>
+      
     </main>
     <footer>
 
