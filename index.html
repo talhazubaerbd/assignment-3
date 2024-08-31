@@ -138,7 +138,7 @@
 <!-- sectionlayout -->
 
   <div class="my-10">
-    <div class="flex justify-center mt-5 "><a class="mt-5 btn rounded-full bg-[#d3f6ae]"><i class="fa-solid fa-arrow-right  text-black  p-1"></i>Explore our Latest works </i></a></div>
+    <div class="flex justify-center mt-5"><a class="mt-5 btn rounded-full bg-[#d3f6ae]"><i class="fa-solid fa-arrow-right  text-black  p-1"></i>Explore our Latest works </i></a></div>
     <div class="text-center mt-5">
         <h1 class="text-2xl font-bold t">Our Latest Portfolio</h1>
         <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
@@ -167,7 +167,7 @@
       </div>
   </div>
   
-  <div class="container mx-auto flex gap-4 my-5">
+  <div class="container mx-auto flex gap-4 my-5 justify-around flex-col sm:flex-row">
     <div class="section02 flex items-center rounded-xl border-2 p-4">
       <img class="" src="image/img3.png">
     </div>
@@ -196,21 +196,29 @@
 
 
 <!-- Form -->
-<div class="forbg  py-20 bg-[url('image/bg.jpg')]">
+<div class="py-20 bg-[url('image/bg.jpg')]">
   <div class="container mx-auto">
     <div class="text-center">
       <a class="btn rounded-full bg-[#d3f6ae] mb-2"><i class="fa-solid fa-arrow-right  text-black  p-1"></i>Let’s Connect</i></a>
       <h1 class="text-2xl font-bold t mb-4">Let’s Discuss Next Project</h1>
       <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
     </div>
-    <div class="grid grid-cols-2 sm:gird-cols-1 gap-3">
-        <input class="w-1/ mt-5 gap-2 p-5 rounded-full" type="text" placeholder="First Name">
-        <input class="w-1/ mt-5 gap-2 p-5 rounded-full" type="text" placeholder="Last Name">
-        <input class="w-1/ mt-5 gap-2 p-5 rounded-full" type="number" placeholder="Mobile Number">
-        <input class="w-1/ mt-5 gap-2 p-5 rounded-full" type="email" placeholder="Enter Your Email">
-    </div>   
-    <textarea name="" class="w-full mt-5 gap-2 p-5 rounded-3xl " rows="4" cols="100"></textarea>
-    <a class="btn rounded-full bg-[#d3f6ae] w-full text-lg my-2">Let’s Connect<i class="fa-solid fa-arrow-right  text-black  p-1"></i></a>
+    <div class="flex flex-col gap-3 mt-5 mx-3">
+      <div class="flex flex-col sm:flex-row gap-3">
+        <input class="w-full p-5 rounded-full" type="text" placeholder="First Name">
+        <input class="w-full p-5 rounded-full" type="text" placeholder="Last Name">
+      </div>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <input class="w-full p-5 rounded-full" type="number" placeholder="Mobile Number">
+        <input class="w-full p-5 rounded-full" type="email" placeholder="Enter Your Email">
+      </div>
+    </div>
+    <div class="mx-3">
+      <textarea name="" class="w-full mt-5 p-5 rounded-3xl" rows="4"></textarea>
+      <a class="btn rounded-full bg-[#d3f6ae] w-full text-lg my-2">Let’s Connect<i class="fa-solid fa-arrow-right  text-black  p-1"></i></a>
+    </div>
+
+
   </div>
 </div>
 </main>
